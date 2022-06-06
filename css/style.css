@@ -1,0 +1,18 @@
+body {
+  background-color: #e66349;
+  color: rgb(187, 170, 170)
+}
+
+#center-background {
+display: grid;
+margin: auto;
+margin-top: 7%;
+width: 80%;
+height: 100%;
+background-color: #1d1d20;
+border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
