@@ -27,9 +27,17 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-top: 75%;
 }
 
 #headshotImage {
   margin: auto;
   margin-top: 75%;
 }
+
+#ticTacToe {
+  margin: auto;
+  length: 75%;
+  height: 75%;
+}
+
