@@ -1,6 +1,13 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
 body {
   background-color: #e66349;
   color: #bbaaaa;
+  height: 9000px;
 }
 
 #center-background {
@@ -17,17 +24,17 @@ border-radius: 5px;
 
 h1 {
   text-align: center;
-  margin-top: 100%;
+  margin-top: 500px;
   color:#ece2e2;
 }
 
 .scroll {
-  margin-top: 75%;
+  margin-top: 350px;
 }
 
 h2 {
   text-align: center;
-  margin-top: 75%;
+  margin-top: 300px;
 }
 
 #headshotImage {
