@@ -37,7 +37,7 @@ h2 {
 
 #ticTacToe {
   margin: auto;
-  length: 75%;
+  width: auto;
   height: 75%;
 }
 
