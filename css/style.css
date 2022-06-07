@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-color: #912d74;
-  color: #bbaaaa;
+  background-color: #d14dac;
+  color: #ebdfdf;
   height: 9000px;
 }
 
@@ -14,9 +14,9 @@ margin: auto;
 margin-top: 7%;
 width: 80%;
 height: 100%;
-background-color: #0a0a0c;
+background-color: #0b0b0c;
 border-radius: 5px;
-border: 2px solid #79979b;
+border: 4px solid #eaf6f8;
 }
 
 h1 {
@@ -86,6 +86,10 @@ button {
 .introBio3 {
   left: 100px;
   position: relative;
+}
+
+.nameColor {
+  color:#d14dac;
 }
 
 @media screen and (max-width: 1300px) {
