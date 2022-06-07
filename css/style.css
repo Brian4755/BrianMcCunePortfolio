@@ -72,7 +72,7 @@ button {
   left: -2800px;
   position: relative;
   overflow: hidden;
-  margin-top: 50%;
+  margin-top: 25%;
   font-size: 55px;
 }
 
@@ -84,12 +84,23 @@ button {
 }
 
 .introBio3 {
-  left: 100px;
+  left: 50px;
   position: relative;
+  margin-top: -25%;
+  font-size: 25px;
+
 }
 
 .nameColor {
   color:#d14dac;
+}
+
+#selfImage {
+  position: relative;
+  margin-left: auto;
+  margin-top: -56%;
+  max-width:;
+  height: auto; 
 }
 
 @media screen and (max-width: 1300px) {
