@@ -19,6 +19,10 @@ window.addEventListener('scroll', function() {
   const scroll1 = window.scrollY - 2300
   introBio1.style.left = `${scroll1}px`
   introBio2.style.right = `${scroll1}px`
+
+  // while (scrolled >= 1700 && scrolled <= 2500) {
+  //   introBio1.style.position = "fixed"
+  // }
 })
 
 button.addEventListener('click', function() {

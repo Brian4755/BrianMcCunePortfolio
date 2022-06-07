@@ -88,3 +88,10 @@ button {
   left: 100px;
   position: relative;
 }
+
+@media screen and (max-width: 1100px) {
+  .introBio2 {
+    margin-top: -55%;
+  }
+  
+}
