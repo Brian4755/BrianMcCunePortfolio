@@ -1,5 +1,7 @@
 const intro = document.querySelector(".intro")
 const button = document.querySelector("button")
+const introBio1 = document.querySelector(".introBio1")
+const introBio2 = document.querySelector(".introBio2")
 
 window.addEventListener('scroll', function() {
   const scrollHeight = document.documentElement.scrollHeight - window.innerHeight
@@ -13,6 +15,10 @@ window.addEventListener('scroll', function() {
     let scroll = 0.6*(scrolled-800)
     intro.style.fontSize = `${scroll}px`
   }
+
+  const scroll1 = window.scrollY - 2300
+  introBio1.style.left = `${scroll1}px`
+  introBio2.style.right = `${scroll1}px`
 })
 
 button.addEventListener('click', function() {
