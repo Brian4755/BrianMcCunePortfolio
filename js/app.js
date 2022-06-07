@@ -8,8 +8,10 @@ window.addEventListener('scroll', function() {
   const scrolled = window.scrollY
   console.log(scrolled)
 
-  if (scrolled >= 500 && scrolled <= 900) {
-    let scroll = 0.7*(scrolled-500)
+  if (scrolled >= 800 && scrolled <= 1100) {
+    let scroll = 0.6*(scrolled-800)
     intro.style.fontSize = `${scroll}px`
   }
 })
+
+// intro.style.fontSize = "25px"
