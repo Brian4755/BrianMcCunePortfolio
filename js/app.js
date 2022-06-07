@@ -1,4 +1,5 @@
 const intro = document.querySelector(".intro")
+const button = document.querySelector("button")
 
 window.addEventListener('scroll', function() {
   const scrollHeight = document.documentElement.scrollHeight - window.innerHeight
@@ -14,4 +15,6 @@ window.addEventListener('scroll', function() {
   }
 })
 
-// intro.style.fontSize = "25px"
+button.addEventListener('click', function() {
+  window.scrollTo(0,0)
+})
