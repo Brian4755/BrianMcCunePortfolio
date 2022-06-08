@@ -16,7 +16,7 @@ window.addEventListener('scroll', function() {
     intro.style.fontSize = `${scroll}px`
   }
 
-  const scroll1 = window.scrollY - 2660
+  const scroll1 = window.scrollY - 2700
   introBio1.style.left = `${scroll1}px`
   introBio2.style.right = `${scroll1}px`
 })
