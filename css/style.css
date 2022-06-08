@@ -57,7 +57,7 @@ button {
   position: fixed;
   width: 70px;
   height: 70px;
-  background-color: aqua;
+  background-color: #d14dac;
   bottom: 0;
   right: 10.6%;
   border-radius: 50%;
@@ -144,6 +144,9 @@ button {
   }
 }
 
+.workText {
+  font-size: 40px;
+}
 
 
 @media screen and (max-width: 900px) {
