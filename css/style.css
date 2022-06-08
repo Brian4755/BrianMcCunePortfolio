@@ -124,6 +124,15 @@ button {
   margin-top: -10%;
 }
 
+#resumeLink {
+  text-decoration: none;
+  color:#ebdfdf;
+}
+
+#resumeLink:hover {
+  color:#d14dac;
+}
+
 @media screen and (max-width: 1500px) {
 
   #selfImage {
@@ -191,4 +200,8 @@ button {
     word-wrap: break-word;
     font-size: 18px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  
 }
