@@ -203,5 +203,57 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  
+  h2 {
+    font-size: 30px;
+  }
+
+  .scroll {
+    margin-left: 12%;
+  }
+
+  .intro {
+    margin-left: 5%;
+    font-size: 12px;
+  }
+
+  .introBio1 {
+    font-size: 35px;
+    margin-top: 140%;
+  }
+
+  .introBio2 {
+    font-size: 35px;
+    margin-top: -34%;
+  }
+
+  #headshotImage {
+    width: 200px;
+    margin-left: 16%;
+    margin-top: -53%;
+  }
+
+  .introBio3 {
+    margin-left: -7%;
+    font-size: 12px;
+  }
+
+  #lineBreak::before {
+    content: "\a       ";
+    white-space: pre;
+    margin-left: 20%;
+  }
+
+  #selfImage {
+    margin-left: 0%;
+    margin-top: -40%;
+    width: 250px;
+  }
+
+  .workText {
+    font-size: 30px;
+  }
+
+  #ticTacToe {
+    width: 200px;
+  }
 }

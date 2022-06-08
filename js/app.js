@@ -24,7 +24,3 @@ window.addEventListener('scroll', function() {
 button.addEventListener('click', function() {
   window.scrollTo(0,0)
 })
-
-// const mediaQuery = window.matchMedia('(max-width: 900px)')
-
-// mediaQuery.addEventListener()
