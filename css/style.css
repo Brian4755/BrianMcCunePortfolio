@@ -91,7 +91,6 @@ button {
 }
 
 .introBio3 {
-  left: 50px;
   position: relative;
   margin-top: 25%;
   font-size: 25px;
@@ -103,7 +102,7 @@ button {
 
 #selfImage {
   position: relative;
-  margin-top: -33%;
+  margin-top: -35%;
   margin-left: auto;
 }
 
@@ -133,14 +132,27 @@ button {
   color:#d14dac;
 }
 
-@media screen and (max-width: 1500px) {
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
 
   #selfImage {
-    margin-top: -20%;
+    margin-top: -47%;
   }
 
-}
+  .introBio3 {
+    font-size: 23px;
+    margin-left: 1%;
+  }
 
+  #headshotImage {
+    margin-top: -27%;
+  }
+}
 
 @media screen and (max-width: 1300px) {
 
@@ -208,7 +220,7 @@ button {
   }
 
   .scroll {
-    margin-left: 12%;
+    margin-left: 23%;
   }
 
   .intro {
@@ -234,7 +246,7 @@ button {
 
   .introBio3 {
     margin-left: -7%;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   #lineBreak::before {
@@ -245,15 +257,16 @@ button {
 
   #selfImage {
     margin-left: 0%;
-    margin-top: -40%;
+    margin-top: -35%;
     width: 250px;
   }
 
   .workText {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   #ticTacToe {
     width: 200px;
   }
+
 }
