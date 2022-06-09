@@ -195,10 +195,6 @@ button {
     margin-left: 23%;
   }
 
-  .introBio1 {
-    left: -2300px;
-  }
-
   .introBio2 {
     margin-top: -54%;
   }
@@ -215,6 +211,7 @@ button {
 }
 
 @media screen and (max-width: 600px) {
+
   h2 {
     font-size: 30px;
   }
@@ -224,24 +221,27 @@ button {
   }
 
   .intro {
-    margin-left: 5%;
+    text-align: center;
     font-size: 12px;
+    margin-left: 0%;
   }
 
   .introBio1 {
     font-size: 35px;
-    margin-top: 140%;
+    margin-top: 260%;
+    margin-left: 0%;
   }
 
   .introBio2 {
     font-size: 35px;
-    margin-top: -34%;
+    margin-top: -72%;
+    margin-left: 0%;
   }
 
   #headshotImage {
     width: 200px;
-    margin-left: 16%;
-    margin-top: -53%;
+    text-align: center;
+    margin-top: -110%;
   }
 
   .introBio3 {
