@@ -173,11 +173,17 @@ button {
     word-wrap: break-word;
     font-size: 18px;
   }
+
+  #selfImage {
+    width: 250px;
+    margin-top: -31%;
+  }
+  
+  .workText {
+    font-size: 40px;
+  }
 }
 
-.workText {
-  font-size: 40px;
-}
 
 
 @media screen and (max-width: 900px) {
