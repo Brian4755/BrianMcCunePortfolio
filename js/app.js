@@ -28,10 +28,6 @@ window.addEventListener('scroll', function() {
         let scroll = 0.4*(scrolled-1000)
         intro.style.fontSize = `${scroll}px`
       }
-
-      // const scroll1 = window.scrollY - 2700
-      // introBio1.style.left = `${scroll1}px`
-      // introBio2.style.right = `${scroll1}px`
     }
 
 })
