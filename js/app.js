@@ -24,7 +24,7 @@ window.addEventListener('scroll', function() {
   const smallWindowSize = window.matchMedia("(max-width: 600px")
 
     if (smallWindowSize.matches) {
-      if (scrolled >= 1000 && scrolled <= 1300) {
+      if (scrolled >= 1000 && scrolled <= 1200) {
         let scroll = 0.4*(scrolled-1000)
         intro.style.fontSize = `${scroll}px`
       }
