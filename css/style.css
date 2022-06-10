@@ -1,7 +1,13 @@
-body {
+html {
+  overflow-x: hidden;
+}
+
+#siteWrapper {
   background-color: #d14dac;
   color: #ebdfdf;
   height: 6000px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 #center-background {
