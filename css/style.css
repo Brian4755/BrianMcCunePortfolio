@@ -83,7 +83,7 @@ button {
 }
 
 .introBio2 {
-  margin-top: -16%;
+  margin-top: -14%;
   position: relative;
   overflow: hidden;
   font-size: 50px;
@@ -134,10 +134,6 @@ button {
 
 
 
-
-
-
-
 @media screen and (max-width: 1600px) {
 
   #selfImage {
@@ -184,7 +180,9 @@ button {
   }
 }
 
-
+#card-container {
+  color:#0b0b0c;
+}
 
 @media screen and (max-width: 900px) {
 
